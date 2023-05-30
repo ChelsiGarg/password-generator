@@ -1,0 +1,58 @@
+body{
+    margin-top: 0;
+    background-color: #001E36;
+    font-family: 'Poppins', 'sans-serrif';
+}
+
+#container{
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+#container h1{
+    font-weight: 500;
+    color: white;
+}
+
+#container span{
+    color: #08845d;
+    border-bottom: 3px solid #08845d;
+}
+
+#password input{
+    border: none;
+    outline: none; /* try to write the password, one time setting the outline to none & one time without setting it to none. You will know the difference! */
+    box-sizing: border-box;   /*The CSS box-sizing property allows us to include the padding and border in an element's total width and height.*/ 
+    padding: 2px;
+    font-size: 18px;
+}
+
+#password{
+    border-radius: 6px;
+    background-color: white;
+    padding: 10px 5px;
+    margin-bottom: 5px;
+    width: 400px;
+    height: 24px;
+    max-width: 90%;
+}
+
+#btn{
+    border: none;
+    border-radius: 4px;
+    background-color: #08845d;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+#btn img{
+    height: 30px;
+    width: 20px;
+    max-width: 90%;
+    margin-right: 10px;
+}
